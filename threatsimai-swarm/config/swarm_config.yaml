@@ -1,0 +1,16 @@
+swarm:
+  default_agents: 1000
+  max_agents: 5000
+  duration_seconds: 60
+  target_network: "192.168.1.0/24"
+
+attacks:
+  - phishing
+  - lateral_movement
+  - credential_stuffing
+  - supply_chain
+
+detection:
+  enabled: true
+  model: "isolation_forest"  # placeholder for future
+  sensitivity: 0.95
