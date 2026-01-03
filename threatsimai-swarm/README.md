@@ -4,7 +4,7 @@
 *Built by CyberdudeBivash Pvt Ltd – Preparing Defenders for 2026 Threats*
 
 ![CyberdudeBivash Banner](https://via.placeholder.com/1200x600/0f172a/38bdf8?text=ThreatSimAI+Swarm+Edition+-+2026+AI+Swarm+Defense)  
-*(Replace with your actual banner image)*
+
 
 ## The 2026 Reality
 
@@ -27,4 +27,5 @@ cd threatsimai-swarm
 pip install -r requirements.txt
 
 # Launch a basic swarm (500 agents)
+
 python -m cli.main --agents 500 --duration 30
